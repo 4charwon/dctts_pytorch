@@ -23,7 +23,7 @@ from util import spectrogram2wav
 from networks import *
 from dataset import *
 
-syn_dir_t2m = 'result_t2m'#kss_result3'
+syn_dir_t2m = 'result_t2m'
 syn_dir_ssrn = 'result_ssrn'
 
 def spectrogram2wav(srstft):
