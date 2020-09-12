@@ -8,6 +8,7 @@ Pretrained model will be uploaded soon.
 Thanks to ScarletCho for KoG2P.(https://github.com/scarletcho/KoG2P)
 
 Single speaker samples https://youtu.be/AysMRoXdfkQ
+
 Multispeaker samples(code will be uploaded soon) https://youtu.be/wGPS_lbHjf0
 
 ----------------------------------------
