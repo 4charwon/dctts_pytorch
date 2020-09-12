@@ -9,6 +9,17 @@ Thanks to ScarletCho for KoG2P.(https://github.com/scarletcho/KoG2P)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 pytorch 0.4.1
 
 pillow 5.2.0
