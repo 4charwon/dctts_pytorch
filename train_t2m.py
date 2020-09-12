@@ -33,7 +33,7 @@ syn_dir = 'result_t2m'
 if not os.path.exists(syn_dir):
   os.makedirs(syn_dir)
 
-dataset = KSSDatasetShuffle('../1prosodytts/data_rs/', batch_size)
+dataset = KSSDatasetShuffle('data_/', batch_size)
 train_loader = DataLoader(dataset, batch_size=batch_size, shuffle=False, num_workers=8, collate_fn=my_collate)
 t2m_opt = torch.optim.Adam(graph0.parameters(),lr=0.0002,betas=(0.5, 0.9), eps=1e-6)#,amsgrad=True)
 
