@@ -34,7 +34,7 @@ graph1.cuda()
 sr_opt = torch.optim.Adam(graph1.parameters(),lr=0.0002,betas=(0.5, 0.9), eps=1e-6)
 graph1.load_state_dict(torch.load('result_ssrn/sr100.pth'))
 
-dataset = KSSDatasetShuffle('../1prosodytts/data_rs/', batch_size)
+dataset = KSSDatasetShuffle('data/', batch_size)
 train_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=8, collate_fn=my_collate)
 t2m_opt = torch.optim.Adam(graph1.parameters(),lr=0.0002,betas=(0.5, 0.9), eps=1e-6)#,amsgrad=True)
 
