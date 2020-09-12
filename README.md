@@ -10,7 +10,11 @@ Thanks to ScarletCho for KoG2P.(https://github.com/scarletcho/KoG2P)
 
 
 pytorch 0.4.1
+
 pillow 5.2.0
+
 torchvision 0.2.1
+
 librosa 0.6.2
+
 amfm-decompy 1.0.9.1(for pitch extraction)
